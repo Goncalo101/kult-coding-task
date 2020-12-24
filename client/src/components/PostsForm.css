@@ -1,0 +1,13 @@
+.form-container, .form-group {
+    margin-bottom: 0.5em;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+.posts-form {
+    padding: 1em;
+    background-color: #eee;
+}
