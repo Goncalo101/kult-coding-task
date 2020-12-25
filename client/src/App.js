@@ -1,24 +1,15 @@
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import PostsForm from "./components/PostsForm";
-import PostsList from "./components/PostsList";
-import { useState } from "react";
-
-import './App.css';
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import MainPage from "./pages/MainPage";
+import ProfilePage from "./pages/ProfilePage";
 
 const App = () => {
-  const [ posts, setPosts ] = useState([]);
-  const [ fetchRequired, setFetchRequired ] = useState(true);
-
   return (
-    <Container fluid>
-      <Row>
-        <PostsForm setPosts={setPosts} />
-      </Row>
-      <Row>
-        <PostsList posts={posts} setPosts={setPosts} fetchRequired={fetchRequired} setFetchRequired={setFetchRequired}/>
-      </Row>
-    </Container>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={MainPage} />
+        <Route exact path="/profile" component={ProfilePage} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
