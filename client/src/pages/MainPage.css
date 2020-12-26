@@ -1,0 +1,8 @@
+.container-fluid > div {
+    padding: 1.5em;
+  }
+  
+  .container-fluid > div:first-child  {
+    background-color: #eee;
+  }
+  
