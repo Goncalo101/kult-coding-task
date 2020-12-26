@@ -1,4 +1,7 @@
 ### Node ###
+# Database
+db.json
+
 # Logs
 logs
 *.log
