@@ -20,6 +20,8 @@ The client was written in React.js using boostrap, a CSS framework. It includes 
 
 * ```/profile``` This page allows the user to change their display name and profile picture.
 
+Pages are located in ```client/pages``` and components in ```client/components```.
+
 ## Server
 The server was written in Node.js and uses a small JSON database provided by lowdb to keep information on the posts, current display name and profile picture of the user.
 It includes the following routes:
@@ -33,3 +35,5 @@ It includes the following routes:
 * ```POST /profile``` Modifies the current profile.
 
 * ```GET /profile/username``` Retrieves the user's name.
+
+Controllers are located in ```server/controllers```. The ```server/public``` folder contains the user's profile picture.
