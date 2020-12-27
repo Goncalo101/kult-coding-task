@@ -1,6 +1,6 @@
 {
   "name": "server",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Server in Node.js for the post-interview project",
   "main": "index.js",
   "scripts": {
