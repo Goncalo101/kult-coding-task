@@ -1,64 +1,7 @@
 {
-  "posts": [
-    {
-      "title": "asdasd",
-      "text": "qweqwe"
-    },
-    {
-      "title": "asdasd",
-      "text": "qweqwe"
-    },
-    {
-      "title": "asdasd",
-      "text": "qweqwe"
-    },
-    {
-      "title": "asdasd",
-      "text": "qweqwe"
-    },
-    {
-      "title": "",
-      "text": ""
-    },
-    {
-      "title": "",
-      "text": ""
-    },
-    {
-      "title": "",
-      "text": ""
-    },
-    {
-      "title": "asdqwd",
-      "text": "123123"
-    },
-    {
-      "title": "asdqwd",
-      "text": "123123"
-    },
-    {
-      "title": "asdqwd",
-      "text": "123123"
-    },
-    {
-      "title": "asdasd",
-      "text": "qweqwe"
-    },
-    {
-      "title": "asdasd",
-      "text": "qweqwe"
-    },
-    {
-      "title": "asdasd",
-      "text": "qweqwe"
-    },
-    {
-      "title": "qweqwe",
-      "text": "asdasd"
-    },
-    {
-      "title": "qweqwe",
-      "text": "asdasd"
-    }
-  ]
+  "posts": [],
+  "user": {
+    "name": "John Doe",
+    "profilePicture": "/public/profile.svg"
+  }
 }
